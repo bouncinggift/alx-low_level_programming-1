@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - void
- * Return: integer 1
- */
+* main - void
+* Return: integer 1
+*/
 int main(void)
 {
-	write(STDERR_FILENO, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", sizeof(str) - 1);
+	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
