@@ -10,7 +10,7 @@ int main(void)
 	for (x = 0; x <= 16; x++)
 	
 	{
-	       	if (i < 10)
+	       	if (x < 10)
 		{
 			putchar(x);
 		} else
