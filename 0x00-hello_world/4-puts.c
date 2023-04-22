@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - void
-* @return 0 on successful completion.
+* Return: Always 0 (success)
 */
 int main(void)
 {
