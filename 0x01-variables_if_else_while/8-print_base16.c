@@ -5,19 +5,19 @@
  */
 int main(void)
 {
-	int x;
+	char x, y;
 
-	for (x = 0; x <= 16; x++)
-	
+	for (x = '0'; x <= '9'; x++)
+
 	{
-	       	if (x < 10)
-		{
-			putchar(x);
-		} else
-		{
-			putchar("a" + x - 10);
-		}
-		putchar('\n');
-		return (0);
+		putchar(x);
 	}
+
+	for (y = 'a'; y <= 'f'; y++)
+
+	{
+		putchar(y);
+	}
+	putchar('\n');
+	return (0);
 }
