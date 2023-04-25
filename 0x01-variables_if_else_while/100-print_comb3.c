@@ -9,7 +9,7 @@ int main(void)
 	/*ASCII code for 0*/
 
 	for (num1 = 48; num1 < 58; num1++)
-	
+
 	{
 
 		for (num2 = 49; num2 < 58; num2++)
