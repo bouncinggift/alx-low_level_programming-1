@@ -23,7 +23,7 @@ int main(void)
 				for (z = 48; z < 58; z++)
 
 				{
-					if (w <= y && !(y == 48 && z == 48) && !(w == y && x == z) && z >= x)
+					if (w <= y && !(y == 48 && z == 48) && !(w == y && x == z) && z >= x && (z == 48 && x == 49))
 					{
 						putchar(w);
 						putchar(x);
